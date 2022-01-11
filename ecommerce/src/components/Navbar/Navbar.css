@@ -5,3 +5,26 @@
     justify-content: center;
     align-items: center;
 }
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display:grid;
+    grid-template-columns:repeat(6, auto);
+    grid-gap:10px;
+    list-style-type: none;
+    text-align: center;
+    justify-content:end;
+    width: 70vw;
+
+}
+
+.nav-links {
+    text-decoration-line: none;
+    cursor: pointer;
+    margin-right:20px;
+}

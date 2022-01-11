@@ -19,10 +19,4 @@ export const Menu = [
         url:'#',
         cName:'nav-links'
     },
-    { 
-        text: 'Become a seller',
-        url:'#',
-        cName:'nav-links-button'
-    },
-    
 ]

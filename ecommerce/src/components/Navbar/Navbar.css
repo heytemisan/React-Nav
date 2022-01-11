@@ -74,11 +74,12 @@
         opacity: 1;
         transition:all 0.5s ease;
         z-index: 1;
+        margin-top:0px
     }
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
         display: table;
     }

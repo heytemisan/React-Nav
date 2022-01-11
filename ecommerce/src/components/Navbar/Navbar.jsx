@@ -29,8 +29,8 @@ class Navbar extends Component {
                             )
                         })
                     }
-                    <li><a>button</a></li>
-                    <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
+                    <li><a className="nav-links" href="#">button</a></li>
+                    <li><a className="nav-links" href="#"><i className="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         )

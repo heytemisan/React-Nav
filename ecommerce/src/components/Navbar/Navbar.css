@@ -1,9 +1,10 @@
 .navbarItems {
-    background-color: grey;
+    color: rgb(42, 81, 42);
     height:80px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .navbar-logo {
@@ -20,11 +21,26 @@
     text-align: center;
     justify-content:end;
     width: 70vw;
-
+    margin-right:20px;
 }
 
 .nav-links {
+    color: rgb(42, 81, 42);
     text-decoration-line: none;
     cursor: pointer;
-    margin-right:20px;
+    padding:0.5rem 0.5rem;
+}
+
+.nav-links:hover {
+    background-color:rgb(143, 192, 234);
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: black;
+}
+
+.menu-icon {
+    display:none;
 }

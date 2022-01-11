@@ -70,7 +70,7 @@
 
     .nav-menu.active {
         background-color: rgb(19, 106, 160);
-        left: 0;
+        left: -50px;
         opacity: 1;
         transition:all 0.5s ease;
         z-index: 1;
@@ -92,7 +92,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(20%, 2%);
     }
 
     .menu-icon {
@@ -106,6 +106,6 @@
     }
 
     .fa-times {
-
+        color: fff;
     }
 }
